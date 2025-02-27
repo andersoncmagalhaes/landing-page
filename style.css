@@ -180,6 +180,8 @@ main .container_main_text {
 
 #hello {
   padding: 20px 0 0 20px;
+  font-weight: 300px;
+  font-style: normal;
 }
 
 .text-main {
@@ -190,6 +192,8 @@ main .container_main_text {
 
 #building {
   padding: 20px 0 0;
+  font-weight: 300px;
+  font-style: normal;
 }
 
 main .container_main_img {
@@ -203,14 +207,13 @@ main .container_main_img {
   align-content: center;
 }
 
-
 .box-icon {
   display: flex;
   flex-wrap: wrap;
   width: 500px;
-  height: 100px;
+  height: 50px;
   justify-content: left;
   align-items: left;
   align-content: left;
-  gap: 20px;
-  padding: 20px;
+  padding: 0 12px 0 12px;
+}
